@@ -6,13 +6,12 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   let message = document.getElementById("message").value;
   let error = document.getElementById("error");
 
-  if (name === "" || email === "" || message === "") {
+  if (!name || !email || !message) {
     error.style.color = "red";
     error.textContent = "Please fill all fields!";
   } else {
     error.style.color = "green";
     error.textContent = "Message sent successfully!";
-    
-    document.getElementById("contactForm").reset();
+    this.reset();
   }
 });
