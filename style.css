@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 /* HEADER */
@@ -24,26 +24,26 @@ nav a {
 /* HERO */
 .hero {
   text-align: center;
+  padding: 50px;
   background: #4a90e2;
   color: white;
-  padding: 60px 20px;
 }
 
 .hero-img {
-  width: 200px;
+  width: 180px;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
 /* SECTIONS */
 .section {
-  padding: 50px 20px;
+  padding: 50px;
   text-align: center;
 }
 
-/* ABOUT */
+/* ABOUT IMAGE */
 .about-img {
-  width: 250px;
+  width: 220px;
   border-radius: 10px;
   margin: 15px 0;
 }
@@ -59,11 +59,11 @@ nav a {
 .card {
   background: #f4f4f4;
   padding: 20px;
-  width: 250px;
+  width: 220px;
   border-radius: 10px;
 }
 
-/* CONTACT */
+/* FORM */
 form {
   display: flex;
   flex-direction: column;
@@ -90,7 +90,6 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 20px;
 }
 
 /* MOBILE */
